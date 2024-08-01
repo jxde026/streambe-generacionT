@@ -1,0 +1,38 @@
+body {
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.pan-top, .pan-bottom {
+    width: 320px;
+    height: 50px;
+    background-color: #F5CBA7;
+    border-radius: 60px 60px 15px 15px;
+    margin: 0px auto;
+}
+
+.pan-bottom {
+    border-radius: 15px 15px 60px 60px;
+}
+
+#mostaza{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    font-size: 70px;
+    text-align: center;
+    border-radius: 20px;
+    color: rgb(255, 180, 60);
+    margin: 0px auto;
+    margin-top: -75px;
+
+}
+
+#salchi {
+    width: 350px;
+    height: 40px;
+    background-color: #CD6155;
+    border-radius: 30px;
+    margin: 0px auto;
+    margin-top: -20px;
+}

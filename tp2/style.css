@@ -1,0 +1,65 @@
+#logo{
+    color: #de184d;
+    font-family: eater, sans-serif;
+    margin:0;
+    padding:0;
+    font-size: 40px;
+}
+
+@font-face {
+    font-family: 'eater';
+    src: url(Eater-Regular.ttf);
+}
+
+body{
+    background-color: #2b1c18;
+}
+
+h5{
+    color: #6b3e38;
+    margin:0;
+}
+
+h2{
+    color:#6b3e38;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:0;
+    padding:0;
+    font-size: 13px;
+}
+
+p{
+    color: #fff3d1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:0;
+    padding:0;
+    font-size: 15px;
+}
+
+a{
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff3d1;
+}
+
+.logo-container{
+    border-radius: 15px;
+    border-style:dotted;
+    border-color: #6b3e38;
+    background-color: #fff3d1;
+    width: 25%;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 15px;
+}
+
+.cuerpo{
+    border-radius: 15px;
+    background-color: #6b3e38;
+    border-style:dotted;
+    width: 40%;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 30px;
+    border-spacing: 5px;
+}

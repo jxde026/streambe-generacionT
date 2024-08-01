@@ -1,0 +1,34 @@
+.malos{
+    background-color:rgb(255, 101, 101);
+    font-weight: bold;
+}
+
+.buenos{
+    background-color:rgb(181, 206, 255);
+}
+
+.soldados{
+    border-style: dashed;
+    border-width: 4;
+    letter-spacing: 5px;
+}
+
+.apoyo{
+    text-align: center;
+}
+
+.nave{
+    text-transform: uppercase;
+}
+
+.droide{
+    text-align: center;
+}
+
+#darth_vader{
+    font-size: 25px;
+}
+
+#luke_skywalker{
+    font-style: italic;
+}

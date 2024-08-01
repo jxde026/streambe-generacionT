@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torneo de futbol</title>
+</head>
+<body>
+<form action="" method="post">
+    <tr>
+		<td>
+            <b><label for="name">Nombre y apellido:</label></b>
+			<input type="text" name="nya" value="">
+            <br><br>
+            <b><label for="name">Categoría en la que desea participar:</label></b>
+            <br>
+            <select name="categoria">
+				<option value="0"> Ingrese la categoría </option>	
+  				<option value="12"> Sub-12 </option>
+                <option value="15"> Sub-15 </option>
+                <option value="18"> Sub-18 </option>
+            </select>
+            <br><br>
+            <b><label for="posicion">Posición en la que juega:</label></b>
+            <br>
+            <input checked type="radio" name="posicion" value="1">Delantero
+            <input checked type="radio" name="posicion" value="2">Mediocampista
+            <input checked type="radio" name="posicion" value="3">Defensa
+            <input checked type="radio" name="posicion" value="4">Portero
+            <br><br>
+            <input type="checkbox" name="terminos" value="1">Acepto los términos y condiciones
+            <br><br>
+            <input type="submit" name="boton" value="Enviar" >
+		</td>
+	</tr>
+</form>
+</body>
+</html>
